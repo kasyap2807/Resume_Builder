@@ -1,5 +1,5 @@
 # Resume_Builder
-Prerequisites
+## Prerequisites
 List any software or tools that need to be installed before running the application. For example:
 
 Node.js and npm (for React)
@@ -11,25 +11,27 @@ Frontend (React)
 Open a terminal in the frontend directory:
 
 
-cd frontend
+cd frontend 
 
 
-Install dependencies:
+## Install dependencies:
 
+### Frontend (React js)
 npm install
-Start the development server:
 
+### Start the development server:
 npm start
 Open your browser and navigate to http://localhost:3000 to view the React app.
 
-Backend (Spring)
+### Backend (Spring boot)
 Open a terminal in the backend directory:
 
 cd backend
 Build the project:
 
 mvn clean install
-Run the Spring Boot application:
+
+### Run the Spring Boot application:
 
 java -jar target/your-app-name.jar
 The backend server will start at http://localhost:8080.
